@@ -1,0 +1,2 @@
+# OpenCode-Slidev-Template
+OpenCodeにSlidevを使ってイケイケスライドを作らせるためのテンプレート
