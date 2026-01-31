@@ -1,0 +1,11 @@
+name: minimal
+title: Minimal Deck Template
+template: minimal
+theme: ../../themes/theme-minimal
+addons:
+  - ../../addons/addon-brand
+outputs:
+  pdf: ./out/slides.pdf
+  pptx: ./out/slides.pptx
+mermaid:
+  theme: base

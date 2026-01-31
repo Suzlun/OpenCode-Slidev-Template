@@ -1,0 +1,14 @@
+{
+  "name": "slide-repo",
+  "image": "node:24-bookworm-slim",
+  "forwardPorts": [3030],
+  "postCreateCommand": "corepack enable && pnpm -v && pnpm install && pnpm dlx playwright install --with-deps chromium",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Vue.volar",
+        "bierner.markdown-mermaid"
+      ]
+    }
+  }
+}

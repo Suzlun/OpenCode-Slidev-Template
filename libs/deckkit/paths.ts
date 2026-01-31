@@ -1,0 +1,6 @@
+export const DECKS_DIR = 'decks'
+export const TEMPLATES_DIR = 'templates'
+export const THEMES_DIR = 'themes'
+export const ADDONS_DIR = 'addons'
+export const DEFAULT_DECK_ENTRY = 'slides.md'
+export const DEFAULT_DECK_CONFIG = 'deck.yml'

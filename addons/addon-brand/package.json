@@ -1,0 +1,7 @@
+{
+  "name": "slidev-addon-brand",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "keywords": ["slidev-addon", "slidev"]
+}

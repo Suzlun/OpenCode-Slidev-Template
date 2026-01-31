@@ -1,0 +1,14 @@
+{
+  "name": "slidev-theme-minimal",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "keywords": ["slidev-theme", "slidev"],
+  "slidev": {
+    "colorSchema": "light",
+    "defaults": {
+      "transition": "fade-out",
+      "aspectRatio": "16/9"
+    }
+  }
+}

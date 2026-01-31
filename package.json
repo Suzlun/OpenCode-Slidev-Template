@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.2",
+  "scripts": {
+    "dev": "node scripts/deck.mjs dev demo",
+    "deck:new": "node scripts/deck.mjs new",
+    "deck:dev": "node scripts/deck.mjs dev",
+    "deck:build": "node scripts/deck.mjs build",
+    "deck:export:pdf": "node scripts/deck.mjs export-pdf",
+    "deck:export:pptx": "node scripts/deck.mjs export-pptx",
+    "deck:list": "node scripts/deck.mjs list",
+    "deck:validate": "node scripts/deck.mjs validate",
+    "template:list": "node scripts/deck.mjs template-list",
+    "template:validate": "node scripts/deck.mjs template-validate"
+  },
+  "devDependencies": {
+    "@slidev/cli": "52.11.5",
+    "playwright-chromium": "1.58.1",
+    "typescript": "5.9.3"
+  }
+}
