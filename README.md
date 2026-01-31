@@ -34,30 +34,6 @@
 
 詳しくは `docs/usage/mermaid.md` を参照してください。
 
-## OpenCode コマンド
-
-Deck:
-- `/deck/new <deck> <template>`
-- `/deck/dev <deck>`
-- `/deck/build <deck>`
-- `/deck/export_pdf <deck>`
-- `/deck/export_pptx <deck>`
-- `/deck/list`
-- `/deck/validate`
-
-Template:
-- `/template/list`
-- `/template/new_deck_template <name>`
-- `/template/new_theme <name>`
-- `/template/new_addon <name>`
-- `/template/validate`
-
-Mermaid:
-- `/mermaid/insert <deck> <heading> <diagram>`
-- `/mermaid/style`
-- `/mermaid/extract <deck>`
-- `/mermaid/validate <deck>`
-
 ## ドキュメント
 - `docs/usage/quickstart.md`
 - `docs/usage/templates.md`
