@@ -1,8 +1,12 @@
 {
   "name": "slide-repo",
-  "image": "node:24-bookworm-slim",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
   "forwardPorts": [3030],
-  "postCreateCommand": "corepack enable && pnpm -v && pnpm install && pnpm dlx playwright install --with-deps chromium",
+  "remoteUser": "node",
+  "postCreateCommand": "corepack enable && pnpm -v && pnpm install && pnpm exec playwright install chromium",
   "customizations": {
     "vscode": {
       "extensions": [
